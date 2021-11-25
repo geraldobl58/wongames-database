@@ -10,12 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -
-        name: Docker meta
-        id: meta
-        uses: docker/metadata-action@v3
-        with:
-          images: name/app
-      -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v1
       -
